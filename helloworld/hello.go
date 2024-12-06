@@ -6,6 +6,7 @@ const englishHelloPrefix = "Hello, "
 const russianHelloPrefix = "Привет, "
 const spanishHelloPrefix = "Hola, "
 
+// Return Hello followed by the language given
 func Hello(name, language string) string {
 	if name == "" {
 		name = "World"
